@@ -10,3 +10,4 @@ spring:
     user: eco-meter
     password: eco-meter
     enabled: true
+    locations: classpath:db/migration-mem

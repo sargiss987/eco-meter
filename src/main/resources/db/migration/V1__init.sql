@@ -18,7 +18,7 @@ CREATE TABLE usage_measurement
 );
 
 -- insert several users into system
-INSERT INTO users DEFAULT VALUES;
-INSERT INTO users DEFAULT VALUES;
-INSERT INTO users DEFAULT VALUES;
+INSERT INTO users DEFAULT VALUES; -- id: 0
+INSERT INTO users DEFAULT VALUES; -- id: 1
+INSERT INTO users DEFAULT VALUES; -- id: 2
 

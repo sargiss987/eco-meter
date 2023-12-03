@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  hsqldb:
+    image: kaneeldias/hsqldb
+    container_name: hsqldb
+    environment:
+      HSQLDB_DATABASE_NAME: eco-meter
+      HSQLDB_DATABASE_ALIAS: eco-meter
+      HSQLDB_USER: eco-meter
+      HSQLDB_PASSWORD: eco-meter
+    ports:
+      - "9001:9001"

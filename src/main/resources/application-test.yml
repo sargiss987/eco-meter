@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:hsqldb:mem:eco-meter
+    driver-class-name: org.hsqldb.jdbc.JDBCDriver
+    username: eco-meter
+    password: eco-meter
+
+  flyway:
+    url: jdbc:hsqldb:mem:eco-meter
+    user: eco-meter
+    password: eco-meter
+    enabled: true
